@@ -74,6 +74,7 @@ echo form_open($form_path . '/' . $share);
 echo form_header(lang('base_settings'));
 
 echo field_input('name', $name, lang('flexshare_share_name'), $share_name_read_only);
+echo field_input('name', "var/flexshare/shares/".$name, lang('flexshare_emplacement_share'), $share_name_read_only);
 echo field_toggle_enable_disable('enabled', $enabled, lang('base_status'), $read_only);
 echo field_input('description', $description, lang('base_description'), $read_only);
 echo field_dropdown('group', $group_options, $group, lang('flexshare_group'), $read_only);
