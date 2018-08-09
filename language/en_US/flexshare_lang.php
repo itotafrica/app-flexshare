@@ -2,6 +2,7 @@
 
 
 $lang['flexshare_accessibility_invalid'] = 'Accessibility is invalid.';
+$lang['flexshare_emplacement_share'] = "Physical Emplacement";
 $lang['flexshare_access_lan'] = 'LAN Only';
 $lang['flexshare_allow_unencrypted_ftp'] = 'Allow Unencrypted FTP';
 $lang['flexshare_app_description'] = 'Flexshares are flexible share resources that allow an administrator to quickly and easily define data sharing, collaboration and access areas via web, file, and FTP.';
